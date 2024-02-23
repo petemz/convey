@@ -10,6 +10,7 @@ import SignUp from './Pages/SignUp';
 import Forgot from './Pages/Forgot';
 import { useState } from 'react';
 import { Logo } from './Assets/Icons';
+import ScrollToTop from './Components/ScrollTop';
 
 const router = createBrowserRouter([
   {
@@ -58,6 +59,7 @@ function App() {
         </div>
         
         <div className='-md:w-1/2 overflow-y-auto'>
+          <ScrollToTop />
           <RouterProvider router={router} />          
         </div>
       </div>
