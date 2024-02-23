@@ -199,7 +199,7 @@ const SignUp2 = ({ user, setUser, setStage}) => {
 
         <div className='mb-12 flex flex-col gap-5'>
           <input 
-            value={user.firstName}
+            value={user.userType === 1 ? user.firstName : user.companyName}
             onChange={handleForm} 
             className="h-12 px-3 leading-none border border-zinc-400 rounded-md" 
             type="text" name={user.userType === 1 ? "firstName" : "companyName"} id={user.userType === 1 ? "firstName" : "companyName"}
@@ -208,7 +208,7 @@ const SignUp2 = ({ user, setUser, setStage}) => {
           />
 
           <input
-            value={user.lastName}
+            value={user.userType === 1 ? user.lastName : user.contactName}
             onChange={handleForm} 
             className="h-12 px-3 leading-none border border-zinc-400 rounded-md" 
             type="text" name={user.userType === 1 ? "lastName" : "contactName"} id={user.userType === 1 ? "lastName" : "contactName"}
