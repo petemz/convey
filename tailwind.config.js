@@ -11,20 +11,20 @@ module.exports = {
     screens: {
       // https://tailwindcss.com/docs/screens
       // -sm+
-      xl: { min: "1200px" },
-      "-xl": { max: "1200px" },
+      "-xl": { min: "1200px" },
+      "xl": { max: "1200px" },
 
-      lg: { min: "950px" },
-      "-lg": { max: "950px" },
+      "-lg": { min: "950px" },
+      "lg": { max: "950px" },
 
-      md: { min: "750px" },
-      "-md": { max: "750px" },
+      "-md": { min: "750px" },
+      "md": { max: "750px" },
 
-      sm: { min: "576px" },
-      "-sm": { max: "576px" },
+      "-sm": { min: "576px" },
+      "sm": { max: "576px" },
 
-      xs: { min: "480px" },
-      "-xs": { max: "480px" },
+      "-xs": { min: "480px" },
+      "xs": { max: "480px" },
     },
   },
   plugins: [],

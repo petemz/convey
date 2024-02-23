@@ -35,3 +35,7 @@ div {
   display: flex;
   align-items: center;
 }
+
+input {
+  outline-color: #1F2258;
+}

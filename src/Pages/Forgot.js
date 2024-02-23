@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Button from "./Components/Button";
-import AngleRight from "./Assets/angle-right.svg";
-import EyeIcon from "./Assets/eye-icon.svg";
+import Button from "../Components/Button";
+import AngleRight from "../Assets/angle-right.svg";
+import EyeIcon from "../Assets/eye-icon.svg";
 
 const Forgot = () => {
   const [stage, setStage] = useState(1)
